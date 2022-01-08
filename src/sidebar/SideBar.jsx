@@ -2,7 +2,6 @@ import { Avatar } from '@material-ui/core';
 import React from 'react'
 import '../styles/SideBar.css';
 import BgImg from '../icons/bg.jpeg';
-import Me from '../icons/me.jpg';
 import { useSelector } from 'react-redux';
 import { selectUser } from '../features/userSlice';
 function SideBar() {

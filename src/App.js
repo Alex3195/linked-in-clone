@@ -1,7 +1,7 @@
 import { React, useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import './App.css';
-import { login, logout, selectUser } from './features/userSlice';
+import { login, selectUser } from './features/userSlice';
 import Feed from './feed/Feed';
 import { auth } from './firebase/firebaseJs';
 import Header from './header/Header';
